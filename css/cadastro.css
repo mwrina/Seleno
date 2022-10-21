@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================================== */
+
+/* CADASTRO */
+
+fieldset{
+    border: 1px solid #0C0C0C;
+    margin: 70px 100px 0px 100px;
+    padding: 10px;
+}
+
+.fieldset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+legend{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+label{
+    font-size: 16px;
+}
+
+input::-webkit-input-placeholder{
+    color: #0C0C0C;
+    opacity: 0.5;
+}
+
+input::-webkit-datetime-edit {
+    color: #0C0C0C;
+    opacity: 0.5;
+}
+
+.nomeSobrenome{
+    display: flex;
+    flex-direction: row;
+    gap: 17.5px;
+    margin-bottom: 5px; 
+}
+
+#nome{
+    width: 490px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+.nascCPFTel{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 5px; 
+}
+
+#nasc{
+    width: 318px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+
+}
+
+#cpf{
+    width: 318px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+#tel{
+    width: 317px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+.cepEnd{
+    display: flex;
+    flex-direction: row;
+    gap: 17.5px;
+    margin-bottom: 5px; 
+}
+
+#cep{
+    width: 490px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+#end{
+    width: 490px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+.complementoEstado{
+    display: flex;
+    flex-direction: row;
+    gap: 17.5px;
+    margin-bottom: 5px; 
+}
+
+#complemento{
+    width: 490px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+.estado select{
+    width: 494px;
+    height: 27px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+#cidade{
+    width: 1002px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C; 
+}
+
+.emailConfirm{
+    display: flex;
+    flex-direction: row;
+    gap: 17.5px;
+    margin-bottom: 5px;
+}
+
+#email{
+    width: 490px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+.senhaConfirm{
+    display: flex;
+    flex-direction: row;
+    gap: 17.5px;
+    margin-bottom: 5px;
+}
+
+#senha{
+    width: 490px;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #0C0C0C;
+}
+
+/* BOTOES */
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#cadastrar{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3F3F42;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#limpar{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3F3F42;
+    color: #FFFFFF;
+    cursor: pointer;
+}

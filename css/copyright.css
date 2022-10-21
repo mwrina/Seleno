@@ -1,0 +1,25 @@
+#linhaBottomDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#linhaBottomDiv hr{
+    width: 600px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#copyright{
+    text-align: center;
+    color: #8B8B8B;
+    font-size: 14px;
+    width: 1000px;
+    margin-bottom: 15px;
+}

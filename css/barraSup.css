@@ -1,0 +1,149 @@
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #0C0C0D;
+    position: fixed; /* fixar navbar */
+    top: 0; /* colocar no topo */
+    width: 100%; /* ocupar toda a tela horizontalmente */
+    height: 50px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+
+/* COMPONENTES NAVBAR */
+
+.navTxt{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navIcons{
+    height: 23px;
+    width: 23px;
+}
+
+/* LOGO */
+
+#divLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo{
+    width: 105px;
+    height: 25px;
+}
+
+/* HOME */
+
+#divHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* SEARCHBAR */
+
+.divSearchBar{
+    float: left;
+    display:flex;
+    flex-direction:row;
+    border:none;
+    padding:2px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    width:350px;
+    height: 20px;
+    margin-top: 13px;
+}
+
+#formPesquisa{
+    float: left;
+    display:flex;
+    flex-direction:row;
+    border:none;
+    padding:2px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    width:345px;
+}
+
+#barraPesquisa{
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0c0c0c;
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #0C0C0D;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #0C0C0D;
+}
+
+#pesquisar{
+    flex-grow: 2;
+    border: none;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+}
+
+#pesquisar_img{
+    background-color: #f2f2f2;
+}
+
+#searchbar{
+    width: 400px;
+    border: 0;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 5px;
+}
+
+/* FAVS */
+
+.divFavs{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+/* CARRINHO */
+
+.divCarrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* ENTRAR/PERFIL */
+
+.divEntrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    cursor: pointer;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================================== */
+
+/* CORPO */
+
+/* PROMOS */
+
+.promos{    
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3px;
+    margin-bottom: 30px;
+}
+
+.promos::-webkit-scrollbar{
+    width: 100px;
+    height: 7px;
+    border: none;
+}
+
+.promos::-webkit-scrollbar-thumb{
+    background-color: #393A3E;
+    border-radius: 20px;
+}
+
+.promos::-webkit-scrollbar-track{
+    background-color: #686970;
+}
+
+#promo01{
+    width: 100%;
+}
+
+#promo02{
+    width: 100%;
+}
+
+#promo03{
+    width: 100%;
+}
+
+/* PROMOS2 */
+
+.promos2{
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.promos2::-webkit-scrollbar{
+    width: 100px;
+    height: 7px;
+    border: none;
+}
+
+.promos2::-webkit-scrollbar-thumb{
+    background-color: #393A3E;
+    border-radius: 20px;
+}
+
+.promos2::-webkit-scrollbar-track{
+    background-color: #686970;
+}
+
+.moletom{
+    font-size: 16px;
+    text-align: center;
+    color: #0C0C0D;
+    text-decoration: none;
+}
+
+#moletom{
+    width: 335px;
+    height: 430px;
+}
+
+.calca{
+    font-size: 16px;
+    text-align: center;
+    color: #0C0C0D;
+    text-decoration: none;
+}
+
+#calca{
+    width: 335px;
+    height: 430px;
+}
+
+.camiseta{
+    font-size: 16px;
+    text-align: center;
+    color: #0C0C0D;
+    text-decoration: none;
+}
+
+#camiseta{
+    width: 335px;
+    height: 430px;
+}
+
+.tenis{
+    font-size: 16px;
+    text-align: center;
+    color: #0C0C0D;
+    text-decoration: none;
+}
+
+.tenis label{
+    margin: 0;
+    padding: 0;
+}
+
+#tenis{
+    width: 335px;
+    height: 430px;
+    margin: 0;
+    padding: 0;
+}
+
+

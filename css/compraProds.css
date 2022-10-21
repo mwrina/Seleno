@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+/* =========================================================== */
+
+/* SIDEBAR */
+
+.sidebar{
+    background-color: #0C0C0D;
+    color: #DCDCDC;
+    float: left;
+    width: 186px;
+    height: 550px;
+    margin-bottom: 0;
+    padding: 2px;
+}
+
+.sidebar h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.sidebar hr{
+    width: 170px;
+    text-align: center;
+}
+
+.sidebar h2{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.collapsible{
+    background-color: #0C0C0D;
+    color: #DCDCDC;
+    border: none;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.conteudo{
+    color: #DCDCDC;
+    padding: 0 30px;
+    display: none;
+    overflow: hidden;
+}
+
+/* =========================================================== */
+
+/* GERAL */
+
+.geral{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 5px;
+    gap: 100px;
+    width: 1000px;
+}
+
+.imgProd{
+    width: 475px;
+    height: 475px;
+    border: 1px solid #0C0C0D;
+    margin-left: 70px;
+}
+
+#imgProd{
+    width: 475px;
+    height: 475px;
+}
+
+.lateralProd{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+#preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0;
+    gap: 20px;
+}
+
+#preco1{
+    color: #5F5F5F;
+    text-decoration: line-through;
+}
+
+#preco2{
+    color: #0C0C0D;
+    font-weight: bold;
+}
+
+
+#promo{
+    color: #FF0000;
+    font-size: 16px;
+}
+
+#titulo h1{
+    font-size: 30px;
+}
+
+.tamanhos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.linTam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+.tam{
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #0C0C0D;
+}
+
+.tam:hover{
+    background-color: #DCDCDC;
+}
+
+.guiaTam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+#regua{
+    width: 35px;
+    height: 35px;
+    opacity: .8;
+}
+
+.labelRegua{
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.labelRegua label{
+    font-size: 14px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botoes1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#comprar{
+    width: 375px;
+    height: 40px;
+    font-size: 17px;
+    color:#FFFFFF;
+    background-color: #F40000;
+    border: none;
+    border-radius: 5px;
+}
+
+#addCarrinho{
+    width: 375px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #0C0C0D;
+}
+
+.consultaFrete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputsConsultaFrete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+#cep{
+    width: 248px;
+    height: 25px;
+    border: 1px solid #0C0C0D;
+    padding-left: 2px;
+}
+
+#consultar{
+    width: 100px;
+    height: 27px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #F40000;
+    color: #FFFFFF;
+}

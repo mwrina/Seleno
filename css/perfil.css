@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================================== */
+
+.divGeral{
+    background-color: #1C1C1D;
+    color: #FFFFFF;
+    border: none;
+    margin: 250px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.divGeral1{
+    display: flex;
+    flex-direction: row;
+}
+
+#fotoPerfil{
+    width: 250px;
+    margin-right: 40px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#nome{
+    width: 150px;
+    height: 20px;
+}
+
+#sobrenome{
+    width: 300px;
+    height: 20px;
+}
+
+#aniv{
+    width: 470px;
+    height: 20px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#cidade{
+    width: 150px;
+    height: 20px;
+}
+
+#estado{
+    width: 50px;
+    height: 24px;
+}
+
+#endereco{
+    width: 237px;
+    height: 20px;
+}
+
+#tel{
+    width: 470px;
+    height: 20px;
+}
+
+.divGeral2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.senha{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+}
+
+#senha1{
+    width: 365px;
+    height: 20px;
+}
+
+#senha2{
+    width: 370px;
+    height: 20px;
+}
+
+.btConfirmarAlts{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#confirmarAlts{
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #F40000;
+    color: #FFFFFF;
+}

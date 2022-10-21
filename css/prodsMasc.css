@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+/* =========================================================== */
+
+/* SIDEBAR */
+
+.sidebar{
+    background-color: #0C0C0D;
+    color: #DCDCDC;
+    float: left;
+    width: 186px;
+    height: 1180px;
+    margin-bottom: 0;
+    padding: 2px;
+}
+
+.sidebar h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.sidebar hr{
+    width: 170px;
+    text-align: center;
+}
+
+.sidebar h2{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.collapsible{
+    background-color: #0C0C0D;
+    color: #DCDCDC;
+    border: none;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.conteudo{
+    color: #DCDCDC;
+    padding: 0 30px;
+    display: none;
+    overflow: hidden;
+}
+
+/* =========================================================== */
+
+#linhaMenu{
+    width: 900px;
+    margin-left: 125px;
+}
+
+/* =========================================================== */
+
+/* PRODUTOS */
+
+.produtos{
+    float: left;
+    width: 100%;
+}
+
+.lin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.prod{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+
+.imgProd{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #0C0C0D;
+    float: left;
+}
+
+.imgProdVazio{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.prodTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height:80px;
+}
+
+.nomeProd{
+    font-size: 15px;
+    color: #0C0C0D;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    margin: 0;
+}
+
+.preco01{
+    color: #5F5F5F;
+    text-decoration: line-through;
+}
+
+.preco02{
+    color: #0C0C0D;
+    font-weight: bold;
+}
+
+.promo{
+    color: #FF0000;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
